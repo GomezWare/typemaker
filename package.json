@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "types": "node scripts/typemaker.js ./data/src/types/jsons.ts ",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
