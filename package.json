@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "types": "node ./scripts/typemaker.js ./data ./src/types/jsontypes.d.ts",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.15.6",
     "@astrojs/check": "^0.9.3",
+    "astro": "^4.15.6",
+    "pluralize": "^8.0.0",
     "typescript": "^5.6.2"
   }
 }

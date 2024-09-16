@@ -1,0 +1,25 @@
+{
+    "name": "John",
+    "age": 30,
+    "isActive": true,
+    "friends": [
+      {
+        "name": "Doe",
+        "age": 25,
+        "contact": {
+          "email": "doe@example.com",
+          "phone": null,
+          "address": {
+            "street": "Main St",
+            "city": "New York",
+            "postalCode": 12345
+          }
+        }
+      }
+    ],
+    "address": {
+      "city": "New York",
+      "postalCode": null
+    }
+  }
+  
