@@ -13,6 +13,8 @@
   "dependencies": {
     "@astrojs/check": "^0.9.3",
     "astro": "^4.15.6",
+    "json-to-ts": "^2.1.0",
+    "json-to-type": "^0.1.2",
     "pluralize": "^8.0.0",
     "typescript": "^5.6.2"
   }
