@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const pluralize = require('pluralize');
+import fs from "fs"
+import path from 'path';
+import pluralize from 'pluralize';
 
 // Función para leer todos los archivos JSON de un directorio
 const readJSONFilesFromDirectory = (directory) => {
